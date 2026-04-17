@@ -3,7 +3,7 @@
     {
       "release_link": "https://github.com/alibaba/dragonwell8/wiki/%E4%B8%8B%E8%BD%BD%E9%95%9C%E5%83%8F(Mirrors-for-download)",
       "release_name": "jdk8u462-b01",
-      "last_updated_timestamp": "2025-09-10T04:03:08Z",
+      "last_updated_timestamp": "2025-09-05T11:03:33Z",
       "binaries": [
         {
           "os": "linux",
@@ -12,32 +12,33 @@
           "jvm_impl": "hotspot",
           "package": {
             "name": "Alibaba_Dragonwell_Standard_8.26.25_aarch64_linux.tar.gz",
-			"link": "https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-standard-8.26.25_jdk8u462-ga/Alibaba_Dragonwell_Standard_8.26.25_aarch64_linux.tar.gz",
-			"sha265sum": "37122741953cecd9d0a8ec708b563cb98aa7cb69097af28ac85a852244c1dd1f",
-			"sha256sum_link": "https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-standard-8.26.25_jdk8u462-ga/Alibaba_Dragonwell_Standard_8.26.25_aarch64_linux.tar.gz.sha256.txt"
+            "link": "https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-standard-8.26.25_jdk8u462-ga/Alibaba_Dragonwell_Standard_8.26.25_aarch64_linux.tar.gz",
+            "sha265sum": "37122741953cecd9d0a8ec708b563cb98aa7cb69097af28ac85a852244c1dd1f",
+            "sha256sum_link": "https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-standard-8.26.25_jdk8u462-ga/Alibaba_Dragonwell_Standard_8.26.25_aarch64_linux.tar.gz.sha256.txt"
           },
-          "timestamp": "2025-09-10T04:03:08Z",
+          "timestamp": "2025-09-05T11:03:33Z",
           "scm_ref": "jdk8u462-b01",
           "openjdk_scm_ref": "jdk8u462-b01",
           "distribution": "dragonwell",
-          "aqavit_results_link": "https://github.com/dragonwell-releng/dragonwell-adoptium/blob/master/AQAvit/8/8u462/dragonwell-standard-jdk-8u462b01-linux-aarch64.tap.zip",
+          "aqavit_results_link": "https://github.com/dragonwell-releng/dragonwell-adoptium/blob/master/AQAvit/8/8u462/dragonwell-standard-jdk-8u462b01-linux-aarch64.zip",
           "tck_affidavit_link": "https://dragonwell-jdk.io/#/tck-affidavit"
-        }, {
+        },
+        {
           "os": "linux",
           "architecture": "x64",
           "image_type": "jdk",
           "jvm_impl": "hotspot",
           "package": {
             "name": "Alibaba_Dragonwell_Standard_8.26.25_x64_linux.tar.gz",
-			"link": "https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-standard-8.26.25_jdk8u462-ga/Alibaba_Dragonwell_Standard_8.26.25_x64_linux.tar.gz",
-			"sha265sum": "9a08d7e486d4775964cf9795342dd70cdbc5829fe16d8386cc8bff7c7922f6ac",
-			"sha256sum_link": "https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-standard-8.26.25_jdk8u462-ga/Alibaba_Dragonwell_Standard_8.26.25_x64_linux.tar.gz.sha256.txt"
+            "link": "https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-standard-8.26.25_jdk8u462-ga/Alibaba_Dragonwell_Standard_8.26.25_x64_linux.tar.gz",
+            "sha265sum": "9a08d7e486d4775964cf9795342dd70cdbc5829fe16d8386cc8bff7c7922f6ac",
+            "sha256sum_link": "https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-standard-8.26.25_jdk8u462-ga/Alibaba_Dragonwell_Standard_8.26.25_x64_linux.tar.gz.sha256.txt"
           },
-          "timestamp": "2025-09-10T04:03:08Z",
+          "timestamp": "2025-09-05T11:03:33Z",
           "scm_ref": "jdk8u462-b01",
           "openjdk_scm_ref": "jdk8u462-b01",
           "distribution": "dragonwell",
-          "aqavit_results_link": "https://github.com/dragonwell-releng/dragonwell-adoptium/blob/master/AQAvit/8/8u462/dragonwell-standard-jdk-8u462b01-linux-x64.tap.zip",
+          "aqavit_results_link": "https://github.com/dragonwell-releng/dragonwell-adoptium/blob/master/AQAvit/8/8u462/dragonwell-standard-jdk-8u462b01-linux-x64.zip",
           "tck_affidavit_link": "https://dragonwell-jdk.io/#/tck-affidavit"
         }
       ],
