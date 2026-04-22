@@ -1,0 +1,183 @@
+# AQACert.log content: 
+# DETECTED_JAVA_VERSION=openjdk version "1.8.0_472"
+# OpenJDK Runtime Environment (Alibaba Dragonwell Standard Edition 8.27.26) (build 1.8.0_472-b01)
+# OpenJDK 64-Bit Server VM (Alibaba Dragonwell Standard Edition 8.27.26) (build 25.472-b01, mixed mode)
+# DETECTED_RELEASE_INFO=JAVA_VERSION="1.8.0_472"
+# OS_NAME="Linux"
+# OS_VERSION="2.6"
+# OS_ARCH="aarch64"
+# SOURCE=".:git:faeaf70d7d49+"
+# IMPLEMENTOR="Alibaba"
+# BUILD_SOURCE="git:bc9ee117784b1f2405d49850dc06daf5f118ee33"
+# BUILD_SOURCE_REPO="https://github.com/dragonwell-releng/openjdk-build.git"
+# SOURCE_REPO="https://github.com/dragonwell-project/dragonwell8.git"
+# FULL_VERSION="1.8.0_472-b01"
+# SEMANTIC_VERSION="8.0.472+1"
+# BUILD_INFO="OS: Linux Version: 5.4.0-135-generic"
+# JVM_VARIANT="Dragonwell"
+# JVM_VERSION="25.472-b01"
+# IMAGE_TYPE="JDK"
+# 
+# Hostname: iZgw86e9lj0cm45wpo0rshZ
+
+#SHAs.txt content: 
+# ================================================
+# timestamp: 20260225-144759
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.system_aarch64_linux/aqa-tests/system/aqa-systemtest
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/aqa-systemtest.git
+# sha:
+# ea987227afd9fec0f9c68bfeeefc3beeca16d3e6
+# ================================================
+# timestamp: 20260225-144759
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.system_aarch64_linux/aqa-tests/system/STF
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/STF.git
+# sha:
+# 91d0e566278d7e8bba2de994f3c0d4164e6bb0d7
+# ================================================
+# timestamp: 20260225-144759
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.system_aarch64_linux/aqa-tests/TKG
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/TKG.git
+# sha:
+# b3ee6c4f70f61744fdfb1fefffcdc2da53e9f152
+# ================================================
+# timestamp: 20260225-144759
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.system_aarch64_linux/aqa-tests
+# git repo: 
+#   Fetch URL: git@github.com:adoptium/aqa-tests.git
+# sha:
+# 30c0b963c9041edc85df0a417b51c2220cd7058a
+# 
+# Timestamp: Wed Feb 25 08:35:23 2026 UTC 
+# TEST TARGETS RESULTS SUMMARY: TOTAL: 32   EXECUTED: 20   PASSED: 20   FAILED: 0   DISABLED: 3   SKIPPED: 9
+1..32
+ok 1 - OAuthTest_0
+  ---
+    duration_ms: 24115
+  ...
+ok 2 - MiniMix_5m_0
+  ---
+    duration_ms: 353034
+  ...
+ok 3 - MiniMix_5m_1
+  ---
+    duration_ms: 348976
+  ...
+ok 4 - MiniMix_5m_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 5 - MiniMix_10m_0
+  ---
+    duration_ms: 653821
+  ...
+ok 6 - MiniMix_10m_1
+  ---
+    duration_ms: 653476
+  ...
+ok 7 - MiniMix_10m_2 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 8 - MiniMix_aot_5m_0
+  ---
+    duration_ms: 674521
+  ...
+ok 9 - ConcurrentLoadTest_5m_0
+  ---
+    duration_ms: 348158
+  ...
+ok 10 - ConcurrentLoadTest_5m_1
+  ---
+    duration_ms: 353344
+  ...
+ok 11 - ConcurrentLoadTest_5m_2 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 12 - DBBLoadTest_5m_0
+  ---
+    duration_ms: 312837
+  ...
+ok 13 - DBBLoadTest_5m_1
+  ---
+    duration_ms: 312080
+  ...
+ok 14 - DBBLoadTest_5m_2 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 15 - LangLoadTest_5m_0
+  ---
+    duration_ms: 302814
+  ...
+ok 16 - LangLoadTest_5m_1
+  ---
+    duration_ms: 302988
+  ...
+ok 17 - LangLoadTest_5m_2 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 18 - LockingLoadTest_0
+  ---
+    duration_ms: 32519
+  ...
+ok 19 - LockingLoadTest_1
+  ---
+    duration_ms: 32650
+  ...
+ok 20 - LockingLoadTest_2 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 21 - UtilLoadTest_5m_0
+  ---
+    duration_ms: 302907
+  ...
+ok 22 - UtilLoadTest_5m_1
+  ---
+    duration_ms: 302443
+  ...
+ok 23 - UtilLoadTest_5m_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 24 - HCRLateAttachWorkload_0
+  ---
+    duration_ms: 262703
+  ...
+ok 25 - HCRLateAttachWorkload_1
+  ---
+    duration_ms: 262849
+  ...
+ok 26 - HCRLateAttachWorkload_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 27 - JdiTest_0 # skip (disabled)
+  ---
+    duration_ms: 13
+  ...
+ok 28 - JdiTest_1 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 29 - JdiTest_2 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 30 - MathLoadTest_all_5m_0
+  ---
+    duration_ms: 303169
+  ...
+ok 31 - MathLoadTest_all_5m_1
+  ---
+    duration_ms: 302983
+  ...
+ok 32 - MathLoadTest_all_5m_2 # skip
+  ---
+    duration_ms: 10
+  ...
