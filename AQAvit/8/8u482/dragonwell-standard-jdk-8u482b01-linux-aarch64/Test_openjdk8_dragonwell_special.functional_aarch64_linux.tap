@@ -1,0 +1,728 @@
+# AQACert.log content: 
+# DETECTED_JAVA_VERSION=openjdk version "1.8.0_472"
+# OpenJDK Runtime Environment (Alibaba Dragonwell Standard Edition 8.27.26) (build 1.8.0_472-b01)
+# OpenJDK 64-Bit Server VM (Alibaba Dragonwell Standard Edition 8.27.26) (build 25.472-b01, mixed mode)
+# DETECTED_RELEASE_INFO=JAVA_VERSION="1.8.0_472"
+# OS_NAME="Linux"
+# OS_VERSION="2.6"
+# OS_ARCH="aarch64"
+# SOURCE=".:git:faeaf70d7d49+"
+# IMPLEMENTOR="Alibaba"
+# BUILD_SOURCE="git:bc9ee117784b1f2405d49850dc06daf5f118ee33"
+# BUILD_SOURCE_REPO="https://github.com/dragonwell-releng/openjdk-build.git"
+# SOURCE_REPO="https://github.com/dragonwell-project/dragonwell8.git"
+# FULL_VERSION="1.8.0_472-b01"
+# SEMANTIC_VERSION="8.0.472+1"
+# BUILD_INFO="OS: Linux Version: 5.4.0-135-generic"
+# JVM_VARIANT="Dragonwell"
+# JVM_VERSION="25.472-b01"
+# IMAGE_TYPE="JDK"
+# 
+# Hostname: iZgw86e9lj0cm45wpo0rsgZ
+
+#SHAs.txt content: 
+# ================================================
+# timestamp: 20260225-144749
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_special.functional_aarch64_linux/aqa-tests/TKG
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/TKG.git
+# sha:
+# b3ee6c4f70f61744fdfb1fefffcdc2da53e9f152
+# ================================================
+# timestamp: 20260225-144749
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_special.functional_aarch64_linux/aqa-tests/openj9
+# git repo: 
+#   Fetch URL: https://github.com/eclipse-openj9/openj9.git
+# sha:
+# e2b243ef540eca7874b78f6d0fbd24ee3ab591c8
+# ================================================
+# timestamp: 20260225-144749
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_special.functional_aarch64_linux/aqa-tests
+# git repo: 
+#   Fetch URL: git@github.com:adoptium/aqa-tests.git
+# sha:
+# 30c0b963c9041edc85df0a417b51c2220cd7058a
+# 
+# Timestamp: Wed Feb 25 06:50:01 2026 UTC 
+# TEST TARGETS RESULTS SUMMARY: TOTAL: 170   EXECUTED: 53   PASSED: 53   FAILED: 0   DISABLED: 0   SKIPPED: 117
+1..170
+ok 1 - MBCS_Tests_pref_ja_JP_linux_0
+  ---
+    duration_ms: 524
+  ...
+ok 2 - MBCS_Tests_pref_ko_KR_linux_0
+  ---
+    duration_ms: 520
+  ...
+ok 3 - MBCS_Tests_pref_zh_CN_linux_0
+  ---
+    duration_ms: 520
+  ...
+ok 4 - MBCS_Tests_pref_zh_TW_linux_0
+  ---
+    duration_ms: 525
+  ...
+ok 5 - MBCS_Tests_pref_JA_JP_aix_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 6 - MBCS_Tests_pref_ko_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 7 - MBCS_Tests_pref_KO_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 8 - MBCS_Tests_pref_ZH_CN_aix_0 # skip
+  ---
+    duration_ms: 8
+  ...
+ok 9 - MBCS_Tests_pref_ZH_TW_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 10 - MBCS_Tests_pref_windows_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 11 - MBCS_Tests_pref_ja_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 12 - MBCS_Tests_pref_ko_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 13 - MBCS_Tests_pref_cn_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 14 - MBCS_Tests_pref_tw_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 15 - MBCS_Tests_codepage_ja_JP_linux_0
+  ---
+    duration_ms: 261
+  ...
+ok 16 - MBCS_Tests_codepage_ko_KR_linux_0
+  ---
+    duration_ms: 227
+  ...
+ok 17 - MBCS_Tests_codepage_zh_CN_linux_0
+  ---
+    duration_ms: 220
+  ...
+ok 18 - MBCS_Tests_codepage_zh_TW_linux_0
+  ---
+    duration_ms: 201
+  ...
+ok 19 - MBCS_Tests_codepage_JA_JP_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 20 - MBCS_Tests_codepage_KO_KR_aix_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 21 - MBCS_Tests_codepage_ZH_CN_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 22 - MBCS_Tests_codepage_ZH_TW_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 23 - MBCS_Tests_codepage_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 24 - MBCS_Tests_codepage_ja_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 25 - MBCS_Tests_codepage_ko_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 26 - MBCS_Tests_codepage_cn_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 27 - MBCS_Tests_codepage_tw_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 28 - MBCS_Tests_file_ja_JP_linux_0
+  ---
+    duration_ms: 343
+  ...
+ok 29 - MBCS_Tests_file_ko_KR_linux_0
+  ---
+    duration_ms: 339
+  ...
+ok 30 - MBCS_Tests_file_zh_CN_linux_0
+  ---
+    duration_ms: 355
+  ...
+ok 31 - MBCS_Tests_file_zh_TW_linux_0
+  ---
+    duration_ms: 341
+  ...
+ok 32 - MBCS_Tests_file_JA_JP.aix_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 33 - MBCS_Tests_file_ko_KR.aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 34 - MBCS_Tests_file_KO_KR.aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 35 - MBCS_Tests_file_ZH_CN.aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 36 - MBCS_Tests_file_ZH_TW.aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 37 - MBCS_Tests_file_windows_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 38 - MBCS_Tests_file_ja_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 39 - MBCS_Tests_file_ko_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 40 - MBCS_Tests_file_cn_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 41 - MBCS_Tests_file_tw_windows_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 42 - MBCS_Tests_coin_ja_JP_linux_0
+  ---
+    duration_ms: 2636
+  ...
+ok 43 - MBCS_Tests_coin_ko_KR_linux_0
+  ---
+    duration_ms: 2566
+  ...
+ok 44 - MBCS_Tests_coin_zh_CN_linux_0
+  ---
+    duration_ms: 2575
+  ...
+ok 45 - MBCS_Tests_coin_zh_TW_linux_0
+  ---
+    duration_ms: 2591
+  ...
+ok 46 - MBCS_Tests_coin_JA_JP_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 47 - MBCS_Tests_coin_ko_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 48 - MBCS_Tests_coin_KO_KR_aix_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 49 - MBCS_Tests_coin_ZH_CN_aix_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 50 - MBCS_Tests_coin_ZH_TW_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 51 - MBCS_Tests_coin_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 52 - MBCS_Tests_coin_ja_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 53 - MBCS_Tests_coin_ko_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 54 - MBCS_Tests_coin_cn_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 55 - MBCS_Tests_coin_tw_windows_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 56 - MBCS_Tests_charsets8_0
+  ---
+    duration_ms: 54310
+  ...
+ok 57 - MBCS_Tests_jdbc41_ja_JP_linux_0
+  ---
+    duration_ms: 2374
+  ...
+ok 58 - MBCS_Tests_jdbc41_ko_KR_linux_0
+  ---
+    duration_ms: 2373
+  ...
+ok 59 - MBCS_Tests_jdbc41_zh_CN_linux_0
+  ---
+    duration_ms: 2409
+  ...
+ok 60 - MBCS_Tests_jdbc41_zh_TW_linux_0
+  ---
+    duration_ms: 2385
+  ...
+ok 61 - MBCS_Tests_jdbc41_JA_JP_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 62 - MBCS_Tests_jdbc41_ko_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 63 - MBCS_Tests_jdbc41_KO_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 64 - MBCS_Tests_jdbc41_Zh_CN_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 65 - MBCS_Tests_jdbc41_ZH_CN_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 66 - MBCS_Tests_jdbc41_ZH_TW_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 67 - MBCS_Tests_jdbc41_windows_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 68 - MBCS_Tests_jdbc41_ja_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 69 - MBCS_Tests_jdbc41_ko_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 70 - MBCS_Tests_jdbc41_cn_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 71 - MBCS_Tests_jdbc41_tw_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 72 - MBCS_Tests_env_ja_JP_linux_0
+  ---
+    duration_ms: 156
+  ...
+ok 73 - MBCS_Tests_env_ko_KR_linux_0
+  ---
+    duration_ms: 157
+  ...
+ok 74 - MBCS_Tests_env_zh_CN_linux_0
+  ---
+    duration_ms: 159
+  ...
+ok 75 - MBCS_Tests_env_zh_TW_linux_0
+  ---
+    duration_ms: 157
+  ...
+ok 76 - MBCS_Tests_env_JA_JP_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 77 - MBCS_Tests_env_ko_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 78 - MBCS_Tests_env_KO_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 79 - MBCS_Tests_env_ZH_CN_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 80 - MBCS_Tests_env_ZH_TW_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 81 - MBCS_Tests_env_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 82 - MBCS_Tests_regex_ja_JP_linux_0
+  ---
+    duration_ms: 961
+  ...
+ok 83 - MBCS_Tests_regex_ko_KR_linux_0
+  ---
+    duration_ms: 955
+  ...
+ok 84 - MBCS_Tests_regex_zh_CN_linux_0
+  ---
+    duration_ms: 728
+  ...
+ok 85 - MBCS_Tests_regex_zh_TW_linux_0
+  ---
+    duration_ms: 759
+  ...
+ok 86 - MBCS_Tests_regex_JA_JP_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 87 - MBCS_Tests_regex_ko_KR_aix_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 88 - MBCS_Tests_regex_KO_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 89 - MBCS_Tests_regex_ZH_CN_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 90 - MBCS_Tests_regex_ZH_TW_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 91 - MBCS_Tests_regex_windows_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 92 - MBCS_Tests_regex_ja_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 93 - MBCS_Tests_regex_ko_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 94 - MBCS_Tests_regex_cn_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 95 - MBCS_Tests_regex_tw_windows_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 96 - MBCS_Tests_annotation_ja_JP_linux_0
+  ---
+    duration_ms: 3692
+  ...
+ok 97 - MBCS_Tests_annotation_ko_KR_linux_0
+  ---
+    duration_ms: 3616
+  ...
+ok 98 - MBCS_Tests_annotation_zh_CN_linux_0
+  ---
+    duration_ms: 3610
+  ...
+ok 99 - MBCS_Tests_annotation_zh_TW_linux_0
+  ---
+    duration_ms: 3659
+  ...
+ok 100 - MBCS_Tests_annotation_JA_JP_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 101 - MBCS_Tests_annotation_ko_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 102 - MBCS_Tests_annotation_KO_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 103 - MBCS_Tests_annotation_Zh_CN_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 104 - MBCS_Tests_annotation_ZH_CN_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 105 - MBCS_Tests_annotation_ZH_TW_aix_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 106 - MBCS_Tests_annotation_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 107 - MBCS_Tests_scanner_ja_JP_linux_0
+  ---
+    duration_ms: 167
+  ...
+ok 108 - MBCS_Tests_scanner_ko_KR_linux_0
+  ---
+    duration_ms: 166
+  ...
+ok 109 - MBCS_Tests_scanner_zh_CN_linux_0
+  ---
+    duration_ms: 163
+  ...
+ok 110 - MBCS_Tests_scanner_zh_TW_linux_0
+  ---
+    duration_ms: 152
+  ...
+ok 111 - MBCS_Tests_scanner_JA_JP_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 112 - MBCS_Tests_scanner_ko_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 113 - MBCS_Tests_scanner_KO_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 114 - MBCS_Tests_scanner_ZH_CN_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 115 - MBCS_Tests_scanner_ZH_TW_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 116 - MBCS_Tests_scanner_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 117 - MBCS_Tests_scanner_ja_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 118 - MBCS_Tests_scanner_ko_windows_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 119 - MBCS_Tests_scanner_cn_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 120 - MBCS_Tests_scanner_tw_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 121 - MBCS_Tests_nio_ja_JP_linux_0
+  ---
+    duration_ms: 149
+  ...
+ok 122 - MBCS_Tests_nio_ko_KR_linux_0
+  ---
+    duration_ms: 153
+  ...
+ok 123 - MBCS_Tests_nio_zh_CN_linux_0
+  ---
+    duration_ms: 150
+  ...
+ok 124 - MBCS_Tests_nio_zh_TW_linux_0
+  ---
+    duration_ms: 148
+  ...
+ok 125 - MBCS_Tests_nio_JA_JP_aix_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 126 - MBCS_Tests_nio_KO_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 127 - MBCS_Tests_nio_ZH_CN_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 128 - MBCS_Tests_nio_ZH_TW_aix_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 129 - MBCS_Tests_nio_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 130 - MBCS_Tests_nio_ja_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 131 - MBCS_Tests_nio_ko_windows_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 132 - MBCS_Tests_nio_cn_windows_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 133 - MBCS_Tests_nio_tw_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 134 - MBCS_Tests_urlclassloader_ja_JP_linux_0
+  ---
+    duration_ms: 8260
+  ...
+ok 135 - MBCS_Tests_urlclassloader_ko_KR_linux_0
+  ---
+    duration_ms: 4216
+  ...
+ok 136 - MBCS_Tests_urlclassloader_zh_CN_linux_0
+  ---
+    duration_ms: 5451
+  ...
+ok 137 - MBCS_Tests_urlclassloader_zh_TW_linux_0
+  ---
+    duration_ms: 5460
+  ...
+ok 138 - MBCS_Tests_urlclassloader_JA_JP_aix_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 139 - MBCS_Tests_urlclassloader_ko_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 140 - MBCS_Tests_urlclassloader_KO_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 141 - MBCS_Tests_urlclassloader_ZH_CN_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 142 - MBCS_Tests_urlclassloader_ZH_TW_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 143 - MBCS_Tests_urlclassloader_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 144 - MBCS_Tests_urlclassloader_ja_windows_0 # skip
+  ---
+    duration_ms: 8
+  ...
+ok 145 - MBCS_Tests_urlclassloader_ko_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 146 - MBCS_Tests_urlclassloader_cn_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 147 - MBCS_Tests_urlclassloader_tw_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 148 - MBCS_Tests_IDN_ja_JP_linux_0
+  ---
+    duration_ms: 1443
+  ...
+ok 149 - MBCS_Tests_IDN_ko_KR_linux_0
+  ---
+    duration_ms: 778
+  ...
+ok 150 - MBCS_Tests_IDN_zh_CN_linux_0
+  ---
+    duration_ms: 738
+  ...
+ok 151 - MBCS_Tests_IDN_zh_TW_linux_0
+  ---
+    duration_ms: 746
+  ...
+ok 152 - MBCS_Tests_IDN_JA_JP_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 153 - MBCS_Tests_IDN_KO_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 154 - MBCS_Tests_IDN_ZH_CN_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 155 - MBCS_Tests_IDN_ZH_TW_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 156 - MBCS_Tests_IDN_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 157 - MBCS_Tests_IDN_ja_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 158 - MBCS_Tests_IDN_ko_windows_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 159 - MBCS_Tests_IDN_cn_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 160 - MBCS_Tests_IDN_tw_windows_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 161 - MBCS_Tests_Compiler_ja_JP_linux_0
+  ---
+    duration_ms: 547
+  ...
+ok 162 - MBCS_Tests_Compiler_ko_KR_linux_0
+  ---
+    duration_ms: 544
+  ...
+ok 163 - MBCS_Tests_Compiler_zh_CN_linux_0
+  ---
+    duration_ms: 537
+  ...
+ok 164 - MBCS_Tests_Compiler_zh_TW_linux_0
+  ---
+    duration_ms: 543
+  ...
+ok 165 - MBCS_Tests_Compiler_JA_JP_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 166 - MBCS_Tests_Compiler_ko_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 167 - MBCS_Tests_Compiler_KO_KR_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 168 - MBCS_Tests_Compiler_ZH_CN_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 169 - MBCS_Tests_Compiler_ZH_TW_aix_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 170 - MBCS_Tests_Compiler_windows_0 # skip
+  ---
+    duration_ms: 9
+  ...
