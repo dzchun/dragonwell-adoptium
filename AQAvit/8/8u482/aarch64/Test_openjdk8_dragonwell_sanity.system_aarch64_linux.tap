@@ -1,0 +1,259 @@
+# AQACert.log content: 
+# DETECTED_JAVA_VERSION=openjdk version "1.8.0_472"
+# OpenJDK Runtime Environment (Alibaba Dragonwell Standard Edition 8.27.26) (build 1.8.0_472-b01)
+# OpenJDK 64-Bit Server VM (Alibaba Dragonwell Standard Edition 8.27.26) (build 25.472-b01, mixed mode)
+# DETECTED_RELEASE_INFO=JAVA_VERSION="1.8.0_472"
+# OS_NAME="Linux"
+# OS_VERSION="2.6"
+# OS_ARCH="aarch64"
+# SOURCE=".:git:faeaf70d7d49+"
+# IMPLEMENTOR="Alibaba"
+# BUILD_SOURCE="git:bc9ee117784b1f2405d49850dc06daf5f118ee33"
+# BUILD_SOURCE_REPO="https://github.com/dragonwell-releng/openjdk-build.git"
+# SOURCE_REPO="https://github.com/dragonwell-project/dragonwell8.git"
+# FULL_VERSION="1.8.0_472-b01"
+# SEMANTIC_VERSION="8.0.472+1"
+# BUILD_INFO="OS: Linux Version: 5.4.0-135-generic"
+# JVM_VARIANT="Dragonwell"
+# JVM_VERSION="25.472-b01"
+# IMAGE_TYPE="JDK"
+# 
+# Hostname: iZgw86e9lj0cm45wpo0rshZ
+
+#SHAs.txt content: 
+# ================================================
+# timestamp: 20260225-183203
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_aarch64_linux/aqa-tests/system/aqa-systemtest
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/aqa-systemtest.git
+# sha:
+# ea987227afd9fec0f9c68bfeeefc3beeca16d3e6
+# ================================================
+# timestamp: 20260225-183203
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_aarch64_linux/aqa-tests/system/STF
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/STF.git
+# sha:
+# 91d0e566278d7e8bba2de994f3c0d4164e6bb0d7
+# ================================================
+# timestamp: 20260225-183203
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_aarch64_linux/aqa-tests/TKG
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/TKG.git
+# sha:
+# b3ee6c4f70f61744fdfb1fefffcdc2da53e9f152
+# ================================================
+# timestamp: 20260225-183203
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_aarch64_linux/aqa-tests
+# git repo: 
+#   Fetch URL: git@github.com:adoptium/aqa-tests.git
+# sha:
+# 30c0b963c9041edc85df0a417b51c2220cd7058a
+# 
+# Timestamp: Wed Feb 25 13:24:13 2026 UTC 
+# TEST TARGETS RESULTS SUMMARY: TOTAL: 51   EXECUTED: 28   PASSED: 28   FAILED: 0   DISABLED: 9   SKIPPED: 14
+1..51
+ok 1 - ClassLoadingTest_5m_0
+  ---
+    duration_ms: 302571
+  ...
+ok 2 - ClassLoadingTest_5m_1
+  ---
+    duration_ms: 302575
+  ...
+ok 3 - ClassLoadingTest_5m_2 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 4 - NioLoadTest_5m_0
+  ---
+    duration_ms: 312489
+  ...
+ok 5 - NioLoadTest_5m_1
+  ---
+    duration_ms: 313011
+  ...
+ok 6 - NioLoadTest_5m_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 7 - MauveSingleThrdLoad_HS_5m_0
+  ---
+    duration_ms: 302473
+  ...
+ok 8 - MauveSingleThrdLoad_HS_5m_1
+  ---
+    duration_ms: 302986
+  ...
+ok 9 - MauveSingleThrdLoad_HS_5m_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 10 - MauveSingleInvocLoad_HS_5m_0
+  ---
+    duration_ms: 302607
+  ...
+ok 11 - MauveSingleInvocLoad_HS_5m_1
+  ---
+    duration_ms: 302349
+  ...
+ok 12 - MauveSingleInvocLoad_HS_5m_2 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 13 - MauveMultiThrdLoad_5m_0
+  ---
+    duration_ms: 302800
+  ...
+ok 14 - MauveMultiThrdLoad_5m_1
+  ---
+    duration_ms: 303041
+  ...
+ok 15 - MauveMultiThrdLoad_5m_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 16 - MathLoadTest_autosimd_5m_0
+  ---
+    duration_ms: 302657
+  ...
+ok 17 - MathLoadTest_autosimd_5m_1
+  ---
+    duration_ms: 302488
+  ...
+ok 18 - MathLoadTest_autosimd_5m_2 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 19 - MathLoadTest_bigdecimal_5m_0
+  ---
+    duration_ms: 302753
+  ...
+ok 20 - MathLoadTest_bigdecimal_5m_1
+  ---
+    duration_ms: 302555
+  ...
+ok 21 - MathLoadTest_bigdecimal_5m_2 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 22 - LambdaLoadTest_HS_5m_0
+  ---
+    duration_ms: 302931
+  ...
+ok 23 - LambdaLoadTest_HS_5m_1
+  ---
+    duration_ms: 305458
+  ...
+ok 24 - LambdaLoadTest_HS_5m_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 25 - ParallelStreamsLoadTest_HS_0
+  ---
+    duration_ms: 12166
+  ...
+ok 26 - ParallelStreamsLoadTest_HS_1
+  ---
+    duration_ms: 13884
+  ...
+ok 27 - ParallelStreamsLoadTest_HS_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 28 - TestJlmLocal_0 # skip (disabled)
+  ---
+    duration_ms: 13
+  ...
+ok 29 - TestJlmLocal_1 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 30 - TestJlmLocal_2 # skip (disabled)
+  ---
+    duration_ms: 13
+  ...
+ok 31 - TestJlmRemoteClassAuth_0
+  ---
+    duration_ms: 640071
+  ...
+ok 32 - TestJlmRemoteClassAuth_1
+  ---
+    duration_ms: 640464
+  ...
+ok 33 - TestJlmRemoteClassAuth_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 34 - TestJlmRemoteClassNoAuth_0
+  ---
+    duration_ms: 638482
+  ...
+ok 35 - TestJlmRemoteClassNoAuth_1
+  ---
+    duration_ms: 638983
+  ...
+ok 36 - TestJlmRemoteClassNoAuth_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 37 - TestJlmRemoteMemoryAuth_0 # skip (disabled)
+  ---
+    duration_ms: 13
+  ...
+ok 38 - TestJlmRemoteMemoryAuth_1 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 39 - TestJlmRemoteMemoryAuth_2 # skip (disabled)
+  ---
+    duration_ms: 13
+  ...
+ok 40 - TestJlmRemoteMemoryNoAuth_0 # skip (disabled)
+  ---
+    duration_ms: 13
+  ...
+ok 41 - TestJlmRemoteMemoryNoAuth_1 # skip (disabled)
+  ---
+    duration_ms: 13
+  ...
+ok 42 - TestJlmRemoteMemoryNoAuth_2 # skip (disabled)
+  ---
+    duration_ms: 11
+  ...
+ok 43 - TestJlmRemoteNotifierProxyAuth_0
+  ---
+    duration_ms: 138209
+  ...
+ok 44 - TestJlmRemoteNotifierProxyAuth_1
+  ---
+    duration_ms: 138084
+  ...
+ok 45 - TestJlmRemoteNotifierProxyAuth_2 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 46 - TestJlmRemoteThreadAuth_0
+  ---
+    duration_ms: 651951
+  ...
+ok 47 - TestJlmRemoteThreadAuth_1
+  ---
+    duration_ms: 651990
+  ...
+ok 48 - TestJlmRemoteThreadAuth_2 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 49 - TestJlmRemoteThreadNoAuth_0
+  ---
+    duration_ms: 648959
+  ...
+ok 50 - TestJlmRemoteThreadNoAuth_1
+  ---
+    duration_ms: 648973
+  ...
+ok 51 - TestJlmRemoteThreadNoAuth_2 # skip
+  ---
+    duration_ms: 10
+  ...
