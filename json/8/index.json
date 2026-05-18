@@ -1,7 +1,13 @@
 {
-  "indexes": [
-  ],
+  "indexes": [],
   "releases": [
-    "jdk_8u472b01.json","jdk_8u462b01.json", "jdk_8u452b01.json", "jdk_8u372b01.json", "jdk_8u362b01.json", "jdk_8u352b01.json", "jdk_8u345b01.json"
+    "jdk_8u482b01.json",
+    "jdk_8u472b01.json",
+    "jdk_8u462b01.json",
+    "jdk_8u452b01.json",
+    "jdk_8u372b01.json",
+    "jdk_8u362b01.json",
+    "jdk_8u352b01.json",
+    "jdk_8u345b01.json"
   ]
 }
