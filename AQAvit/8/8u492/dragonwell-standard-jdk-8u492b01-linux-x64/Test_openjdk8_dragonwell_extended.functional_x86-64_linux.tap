@@ -1,0 +1,82 @@
+# AQACert.log content: 
+# DETECTED_JAVA_VERSION=openjdk version "1.8.0_482"
+# OpenJDK Runtime Environment (Alibaba Dragonwell Standard Edition 8.28.27) (build 1.8.0_482-b01)
+# OpenJDK 64-Bit Server VM (Alibaba Dragonwell Standard Edition 8.28.27) (build 25.482-b01, mixed mode)
+# DETECTED_RELEASE_INFO=JAVA_VERSION="1.8.0_482"
+# OS_NAME="Linux"
+# OS_VERSION="2.6"
+# OS_ARCH="amd64"
+# SOURCE=".:git:a21bc61c191b+"
+# IMPLEMENTOR="Alibaba"
+# BUILD_SOURCE="git:1b51920f7b1d3006e1498dfb660b72609048a37d"
+# BUILD_SOURCE_REPO="https://github.com/dragonwell-releng/openjdk-build.git"
+# SOURCE_REPO="https://github.com/dragonwell-project/dragonwell8.git"
+# FULL_VERSION="1.8.0_482-b01"
+# SEMANTIC_VERSION="8.0.482+1"
+# BUILD_INFO="OS: Linux Version: 5.4.0-106-generic"
+# JVM_VARIANT="Dragonwell"
+# JVM_VERSION="25.482-b01"
+# IMAGE_TYPE="JDK"
+# 
+# Hostname: iZgw8du5lev6ljk1j9f2i2Z
+
+#SHAs.txt content: 
+# ================================================
+# timestamp: 20260429-180325
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.functional_x86-64_linux/aqa-tests
+# git repo: 
+#   Fetch URL: git@github.com:adoptium/aqa-tests.git
+# sha:
+# bffbffa06234d4293da93b08e558725f2b74e236
+# ================================================
+# timestamp: 20260429-180325
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.functional_x86-64_linux/aqa-tests/openj9
+# git repo: 
+#   Fetch URL: https://github.com/eclipse-openj9/openj9.git
+# sha:
+# 29a80dcc7574903c3b4eef0d98f55803fc21a08b
+# ================================================
+# timestamp: 20260429-180325
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.functional_x86-64_linux/aqa-tests/TKG
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/TKG.git
+# sha:
+# e491bfde67c26f25c951bbde2c254fa84aa7c7ff
+# ================================================
+# timestamp: 20260429-180325
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.functional_x86-64_linux/aqa-tests/functional/security/Crypto/CryptoTest
+# git repo: 
+#   Fetch URL: https://github.com/rh-openjdk/CryptoTest.git
+# sha:
+# a0cfbc65872f959662cc6e830ee99cc132b9ddae
+# 
+# Timestamp: Wed Apr 29 10:04:40 2026 UTC 
+# TEST TARGETS RESULTS SUMMARY: TOTAL: 6   EXECUTED: 3   PASSED: 3   FAILED: 0   DISABLED: 2   SKIPPED: 1
+1..6
+ok 1 - SecurityTests_0 # skip (disabled)
+  ---
+    duration_ms: 9
+  ...
+ok 2 - CryptoTests_0 # skip (disabled)
+  ---
+    duration_ms: 9
+  ...
+ok 3 - CryptoTests_jtreg_0
+  ---
+    output:
+      |
+        Test results: passed: 31
+    duration_ms: 73131
+  ...
+ok 4 - IllegalAccessProtectedMethodTest_hs_0
+  ---
+    duration_ms: 258
+  ...
+ok 5 - testExample_0
+  ---
+    duration_ms: 294
+  ...
+ok 6 - cmdLineTester_classesdbgddrext_zos_0 # skip
+  ---
+    duration_ms: 9
+  ...

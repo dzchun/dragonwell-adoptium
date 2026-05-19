@@ -1,0 +1,109 @@
+# AQACert.log content: 
+# DETECTED_JAVA_VERSION=openjdk version "1.8.0_482"
+# OpenJDK Runtime Environment (Alibaba Dragonwell Standard Edition 8.28.27) (build 1.8.0_482-b01)
+# OpenJDK 64-Bit Server VM (Alibaba Dragonwell Standard Edition 8.28.27) (build 25.482-b01, mixed mode)
+# DETECTED_RELEASE_INFO=JAVA_VERSION="1.8.0_482"
+# OS_NAME="Linux"
+# OS_VERSION="2.6"
+# OS_ARCH="aarch64"
+# SOURCE=".:git:a21bc61c191b+"
+# IMPLEMENTOR="Alibaba"
+# BUILD_SOURCE="git:1b51920f7b1d3006e1498dfb660b72609048a37d"
+# BUILD_SOURCE_REPO="https://github.com/dragonwell-releng/openjdk-build.git"
+# SOURCE_REPO="https://github.com/dragonwell-project/dragonwell8.git"
+# FULL_VERSION="1.8.0_482-b01"
+# SEMANTIC_VERSION="8.0.482+1"
+# BUILD_INFO="OS: Linux Version: 5.4.0-135-generic"
+# JVM_VARIANT="Dragonwell"
+# JVM_VERSION="25.482-b01"
+# IMAGE_TYPE="JDK"
+# 
+# Hostname: iZgw86e9lj0cm45wpo0rsgZ
+
+#SHAs.txt content: 
+# ================================================
+# timestamp: 20260507-170343
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.perf_aarch64_linux/aqa-tests/TKG
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/TKG.git
+# sha:
+# 87002f80374deb5b188133d8833ea030c13d5ee6
+# ================================================
+# timestamp: 20260507-170343
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.perf_aarch64_linux/aqa-tests
+# git repo: 
+#   Fetch URL: git@github.com:adoptium/aqa-tests.git
+# sha:
+# d3c3aa10efc678764d057c81832a06531a262d52
+# 
+# Timestamp: Thu May  7 09:04:32 2026 UTC 
+# TEST TARGETS RESULTS SUMMARY: TOTAL: 17   EXECUTED: 16   PASSED: 16   FAILED: 0   DISABLED: 1   SKIPPED: 0
+1..17
+ok 1 - renaissance-als_0
+  ---
+    duration_ms: 819
+  ...
+ok 2 - renaissance-chi-square_0
+  ---
+    duration_ms: 799
+  ...
+ok 3 - renaissance-db-shootout_0
+  ---
+    duration_ms: 828
+  ...
+ok 4 - renaissance-dec-tree_0
+  ---
+    duration_ms: 829
+  ...
+ok 5 - renaissance-finagle-chirper_0 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 6 - renaissance-finagle-http_0
+  ---
+    duration_ms: 851
+  ...
+ok 7 - renaissance-log-regression_0
+  ---
+    duration_ms: 799
+  ...
+ok 8 - renaissance-mnemonics_0
+  ---
+    duration_ms: 795
+  ...
+ok 9 - renaissance-movie-lens_0
+  ---
+    duration_ms: 799
+  ...
+ok 10 - renaissance-par-mnemonics_0
+  ---
+    duration_ms: 800
+  ...
+ok 11 - renaissance-philosophers_0
+  ---
+    duration_ms: 835
+  ...
+ok 12 - dacapo-avrora_0
+  ---
+    duration_ms: 6444
+  ...
+ok 13 - dacapo-fop_0
+  ---
+    duration_ms: 4212
+  ...
+ok 14 - dacapo-jython_0
+  ---
+    duration_ms: 11116
+  ...
+ok 15 - dacapo-pmd_0
+  ---
+    duration_ms: 7038
+  ...
+ok 16 - dacapo-sunflow_0
+  ---
+    duration_ms: 8563
+  ...
+ok 17 - dacapo-xalan_0
+  ---
+    duration_ms: 2922
+  ...
